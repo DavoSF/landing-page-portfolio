@@ -1,0 +1,83 @@
+/* #C4C0C2    #2C5266 */
+@font-face {
+    font-family: 'dodum';
+    src: url('./fonts/Dodum/GowunDodum-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: 'dodum', 'sans-serif';
+    background: linear-gradient(
+        0deg, 
+        #2C5266 21%, 
+        #c4c0c2 100%
+        );
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.navbar {
+    display: flex;
+    background-color: #2C5266;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    color: #C4C0C2;
+    box-shadow: 0px 0px 23px 3px #2C5266;
+    font-weight: 600;
+}
+
+.navbar a:link {
+    color: #C4C0C2;
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    color: #C4C0C2;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #C4C0C2;
+    text-decoration: underline;
+}
+
+.navbar a:active {
+    color: #C4C0C2;
+    text-decoration: none;
+    box-shadow: 0px 0px 23px 3px #000;
+    border-radius: 50px;
+    padding: 0 8px;
+}
+
+.home {
+    height: 100%;
+    width: 100px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home img {
+    height: 100%;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 12%;
+    align-items: center;
+}
+
+.signin {
+    padding: 0px 20px;
+}
+
+main {
+    height: 1000px;
+    padding-top: 60px;
+}

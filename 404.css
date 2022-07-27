@@ -1,0 +1,47 @@
+html {
+    background: linear-gradient(
+        0deg, 
+        #2C5266 21%, 
+        #c4c0c2 100%
+        );
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 100px;
+}
+
+a {
+    z-index: 1;
+}
+
+.home button {
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border-width: 0;
+}
+
+.error {
+    font-size: 50px;
+    margin-top: -50px;
+}
+
+.notfound {
+    width: 500px;
+
+}
+
+.e404 {
+    width: 100%;
+    margin-top: -75px;
+    z-index: -1;
+}
